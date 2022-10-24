@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alcocards.MainPage">
+
+    <ScrollView Background="#111111">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            >
+            <Image Source="logo.png" Scale="0.7"/>
+
+            <Label Text="Podaj liczbę graczy" TextColor="White" HorizontalTextAlignment="Center" FontSize="15" FontFamily="JetBrainsMonoNL-Light" Margin="0,80,0,0"></Label>
+            <Frame BackgroundColor="White" CornerRadius="50" HeightRequest="50">
+                <Entry HorizontalTextAlignment="Center" TextColor="Black" HeightRequest="40" Keyboard="Numeric" />
+            </Frame>
+
+            <ImageButton Source="next.png" WidthRequest="60" HeightRequest="60" VerticalOptions="End" Margin="0,30,0,0" CornerRadius="30">
+                
+            </ImageButton>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
