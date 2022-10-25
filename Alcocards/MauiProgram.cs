@@ -1,4 +1,4 @@
-﻿using Android.Hardware.Lights;
+﻿//using Android.Hardware.Lights;
 
 namespace Alcocards;
 

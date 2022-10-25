@@ -13,7 +13,7 @@
 
             <Label Text="Podaj liczbę graczy" TextColor="White" HorizontalTextAlignment="Center" FontSize="18"  Margin="0,30,0,0"></Label>
             <Frame BackgroundColor="White" CornerRadius="50" HeightRequest="50">
-                <Editor Text="0" 
+                <Editor Text="" 
                         HorizontalTextAlignment="Center" 
                         TextColor="Black" 
                         HeightRequest="40" 

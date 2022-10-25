@@ -24567,24 +24567,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\szcze\\.nuget\\packages\\": {},
+    "C:\\Users\\mikolaj\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projekty\\Alkokarty\\Alcocards\\Alcocards.csproj",
+      "projectUniqueName": "C:\\Users\\mikolaj\\source\\repos\\Alkokarty\\Alcocards\\Alcocards.csproj",
       "projectName": "Alcocards",
-      "projectPath": "C:\\Projekty\\Alkokarty\\Alcocards\\Alcocards.csproj",
-      "packagesPath": "C:\\Users\\szcze\\.nuget\\packages\\",
-      "outputPath": "C:\\Projekty\\Alkokarty\\Alcocards\\obj\\",
+      "projectPath": "C:\\Users\\mikolaj\\source\\repos\\Alkokarty\\Alcocards\\Alcocards.csproj",
+      "packagesPath": "C:\\Users\\mikolaj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mikolaj\\source\\repos\\Alkokarty\\Alcocards\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\szcze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mikolaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -24597,7 +24597,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
       },
       "frameworks": {
         "net6.0-android31.0": {
