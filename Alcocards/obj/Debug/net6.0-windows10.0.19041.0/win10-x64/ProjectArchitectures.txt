@@ -1,0 +1,1 @@
+C:\Projekty\Alkokarty\Alcocards\Alcocards.csproj;x64

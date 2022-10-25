@@ -11,12 +11,18 @@
             >
             <Image Source="logo.png" Scale="0.7"/>
 
-            <Label Text="Podaj liczbę graczy" TextColor="White" HorizontalTextAlignment="Center" FontSize="15" FontFamily="JetBrainsMonoNL-Light" Margin="0,80,0,0"></Label>
+            <Label Text="Podaj liczbę graczy" TextColor="White" HorizontalTextAlignment="Center" FontSize="18"  Margin="0,30,0,0"></Label>
             <Frame BackgroundColor="White" CornerRadius="50" HeightRequest="50">
-                <Entry HorizontalTextAlignment="Center" TextColor="Black" HeightRequest="40" Keyboard="Numeric" />
+                <Editor Text="0" 
+                        HorizontalTextAlignment="Center" 
+                        TextColor="Black" 
+                        HeightRequest="40" 
+                        Keyboard="Numeric" 
+                        WidthRequest="80"
+                        x:Name="player_ammount_field" />
             </Frame>
 
-            <ImageButton Source="next.png" WidthRequest="60" HeightRequest="60" VerticalOptions="End" Margin="0,30,0,0" CornerRadius="30">
+            <ImageButton Source="next.png" WidthRequest="60" HeightRequest="60" Margin="0,0,0,0" CornerRadius="30" Clicked="NextPage">
                 
             </ImageButton>
         </VerticalStackLayout>

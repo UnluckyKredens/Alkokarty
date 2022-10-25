@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m510TXzI4EEa8i7bKm4lpPd0EAUmSCr92GWwlEJNtsbcECH3xvrrAV2lYHcLm+NHdV5sw92NcWY7b/MEfYM7rw==",
+  "dgSpecHash": "pn2Gl479kz5buRAlbX4s5sY2w3IRtNNyrRfn+KfZMBpTr4yiEO0TylWPYP7RAcJM0BSVwGDzjHCvSDWRIt5sPA==",
   "success": true,
-  "projectFilePath": "C:\\Projekty\\Alcocards\\Alcocards\\Alcocards.csproj",
+  "projectFilePath": "C:\\Projekty\\Alkokarty\\Alcocards\\Alcocards.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szcze\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\szcze\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
