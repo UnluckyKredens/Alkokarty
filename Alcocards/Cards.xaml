@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Alcocards.Cards"
+             >
+    <StackLayout Background="#111111" HorizontalOptions="Center" WidthRequest="1000">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,15"
+            VerticalOptions="Center"
+            >
+                <Label 
+                x:Name="playerName"
+                Text="Nazwa Gracza"
+                TextColor="#fff"
+                 FontSize="25"
+                HorizontalTextAlignment="Center"
+                />
+
+            <ImageButton WidthRequest="300" CornerRadius="30"  HeightRequest="500" Source="three.png" x:Name="cardPick" Clicked="FindCard">
+            </ImageButton>
+        </VerticalStackLayout>
+    </StackLayout>
+</ContentPage>

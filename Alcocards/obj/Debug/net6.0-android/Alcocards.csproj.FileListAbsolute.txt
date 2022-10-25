@@ -958,3 +958,16 @@ C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\stamp\_GenerateJavaStub
 C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\f\JetBrainsMonoNL.ttf
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\ace.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\eight.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\five.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\four.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\jocker.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\king.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\nine.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\queen.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\seven.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\six.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\ten.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\three.png
+C:\Projekty\Alkokarty\Alcocards\obj\Debug\net6.0-android\resizetizer\r\drawable\two.png
