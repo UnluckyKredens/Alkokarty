@@ -3,4 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Alcocards.PlayerNames"
              Title="PlayerNames">
+
+    <VerticalStackLayout Background="#111111">
+        <StackLayout
+            x:Name="Layout"
+            Background="#111111"
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            
+        </StackLayout>
+        <ImageButton Source="next.png" WidthRequest="60" HeightRequest="60" Margin="0,0,0,0" CornerRadius="30" Clicked="NextPage"></ImageButton>
+    </VerticalStackLayout>
 </ContentPage>

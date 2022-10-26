@@ -1,34 +1,27 @@
+using Microsoft.Maui.Controls;
+using System.ComponentModel;
+
 namespace Alcocards;
 
 public partial class PlayerNames : ContentPage
 {
 	int players_amount = MainPage.players;
-
-	public PlayerNames()
+    List<string> player_name = new List<string>();
+    public PlayerNames()
 	{
 		InitializeComponent();
-		// Dodaje do contentu nowy scrollview
-		Content = new ScrollView
-		{
-			BackgroundColor = Color.FromArgb("111111"),
-            // Dodaje do contentu nowy StackLayout
-            Content = new StackLayout
-			{
-				Padding = 20,
-				Spacing = 30,
-
-				Children =
-				{
-					// TODO: tworzenie edytorów, dla danej liczby graczy - for
-					new Editor
-					{
-						BackgroundColor = Color.FromArgb("FFFFFF"),
-						Text = "text",
-						TextColor = Color.FromArgb("111111")
-					}
-                }
-			}
-		};
-		
+        for(int i = 0; i < players_amount; i++)
+        {
+            CreateEditor();
+        }
     }
+
+    void CreateEditor()
+    {
+        Entry editor = new Entry{Placeholder = "", HeightRequest = 35, WidthRequest = 350, BackgroundColor = Colors.White, HorizontalTextAlignment = TextAlignment.Center, MaxLength = 20, Keyboard = Keyboard.Plain };
+        Layout.Add(editor);
+        player_name.Add(editor.Text);
+    }
+
+
 }
