@@ -9,16 +9,15 @@
             Padding="30,15"
             VerticalOptions="Center"
             >
-                <Label 
+            <Label 
                 x:Name="playerName"
                 Text="Nazwa Gracza"
                 TextColor="#fff"
                  FontSize="25"
                 HorizontalTextAlignment="Center"
                 />
-
-            <ImageButton WidthRequest="300" CornerRadius="30"  HeightRequest="500" Source="three.png" x:Name="cardPick" Clicked="FindCard">
-            </ImageButton>
+            <ImageButton WidthRequest="300" CornerRadius="30"  HeightRequest="500" AbsoluteLayout.LayoutBounds="300,500,340,-450" Source="three.png" x:Name="cardPick" Clicked="FindCard">
+                </ImageButton>
         </VerticalStackLayout>
     </StackLayout>
 </ContentPage>
