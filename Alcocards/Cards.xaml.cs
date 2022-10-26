@@ -4,29 +4,31 @@ namespace Alcocards;
 
 public partial class Cards : ContentPage
 {
-	int players;
-	int card;
-	Random rng = new Random();
-	public Cards()
-	{
-		InitializeComponent();
-		FindCard(null, null);
+    int players;
+    int card;
+    string letter = "ABCDEFGHJKLMNOPQRSTUVWX";
+
+    Random rng = new Random();
+    public Cards()
+    {
+        InitializeComponent();
+        FindCard(null, null);
 
 
     }
 
-	void FindPlayer()
-	{
+    void FindPlayer()
+    {
 
-	}
+    }
 
-	void FindCard(object sender, EventArgs e)
-	{
-		card = rng.Next(1, 14);	
-		switch(card)
-		{
-			case 1:
-				cardPick.Source = "ace.png";
+    void FindCard(object sender, EventArgs e)
+    {
+        card = rng.Next(1, 14);
+        switch (card)
+        {
+            case 1:
+                cardPick.Source = "ace.png";
                 task.Text = "Wybierz osobê z któr¹ chcesz siê napiæ";
                 break;
             case 2:
@@ -59,18 +61,18 @@ public partial class Cards : ContentPage
                 break;
             case 9:
                 cardPick.Source = "nine.png";
-                task.Text = "Rymy na litere: "; // Dorobiæ
+                task.Text = "Rymy na litere: " + RandomLetter();
                 break;
             case 10:
                 cardPick.Source = "ten.png";
-                task.Text = "Pañstwo/Miasto na litere: ";
+                task.Text = "Pañstwo/Miasto na litere: " + RandomLetter();
                 break;
             case 11:
                 cardPick.Source = "jocker.png";
                 task.Text = "Zadanie: \n";
                 break;
             case 12:
-                cardPick.Source = "queen.png";    
+                cardPick.Source = "queen.png";
                 task.Text = "Nie wolno tej osobie odpowiedzieæ na pytanie do nastêpnego wylosowania karty";// lista zadañ
                 break;
             case 13:
@@ -79,5 +81,11 @@ public partial class Cards : ContentPage
                 break;
 
         }
-	}
+    }
+
+    Char RandomLetter()
+    {
+        int index = rng.Next(1, letter.Length);
+        return letter[index];
+    }
 }
