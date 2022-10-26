@@ -13,8 +13,6 @@ public partial class Cards : ContentPage
     {
         InitializeComponent();
         FindCard(null, null);
-
-
     }
 
     void FindPlayer()
@@ -79,7 +77,6 @@ public partial class Cards : ContentPage
                 cardPick.Source = "king.png";
                 task.Text = "Nigdy przenigdy: \n"; // lista
                 break;
-
         }
     }
 
