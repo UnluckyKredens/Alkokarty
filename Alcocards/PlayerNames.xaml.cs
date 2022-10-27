@@ -1,7 +1,5 @@
-using AndroidX.ConstraintLayout.Helper.Widget;
 using Microsoft.Maui.Controls;
 using System.ComponentModel;
-using static Bumptech.Glide.DiskLruCache.DiskLruCache;
 
 namespace Alcocards;
 
