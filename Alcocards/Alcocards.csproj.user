@@ -8,9 +8,6 @@
     <DefaultDevice>pixel_-_api_31</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Cards.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="PlayerNames.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
