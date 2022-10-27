@@ -3,29 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Alcocards.MainPage">
 
-    <ScrollView Background="#111111">
+    <ScrollView Background="#1E1E1E">
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center"
             >
-            <Image Source="logo.png" Scale="0.7"/>
+            <Image Source="logo.png" Scale="0.6" Margin="0,0,0,0"/>
 
-            <Label Text="Podaj liczbę graczy" TextColor="White" HorizontalTextAlignment="Center" FontSize="18"  Margin="0,30,0,0"></Label>
+            <Label TextColor="White" HorizontalTextAlignment="Center" FontSize="24"  Margin="0,30,0,0" FontFamily="Jetbrains">Podaj liczbę graczy</Label>
             <Frame BackgroundColor="White" CornerRadius="50" HeightRequest="50">
-                <Editor Text="" 
+                <Editor Placeholder="Liczba graczy"
+                        PlaceholderColor="#5a5a5a"
                         HorizontalTextAlignment="Center" 
                         TextColor="Black" 
-                        HeightRequest="40" 
+                        HeightRequest="45"
+                        FontSize="18"
+                        FontFamily="Jetbrains"
                         Keyboard="Numeric" 
-                        WidthRequest="80"
+                        WidthRequest= "350"
                         x:Name="player_ammount_field" />
             </Frame>
-
-            <ImageButton Source="next.png" WidthRequest="60" HeightRequest="60" Margin="0,0,0,0" CornerRadius="30" Clicked="NextPage">
-                
-            </ImageButton>
+            <ImageButton Source="next.png" WidthRequest="70" HeightRequest="70" Margin="0,40,0,0" CornerRadius="30" Clicked="NextPage"></ImageButton>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

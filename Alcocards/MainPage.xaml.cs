@@ -13,7 +13,7 @@ public partial class MainPage : ContentPage
 	{
 		if (player_ammount_field.Text == "0" || player_ammount_field.Text == null || player_ammount_field.Text == "")
 		{
-			await DisplayAlert("Error", "Podaj Jakąś liczbe", "OK");
+			await DisplayAlert("Uwaga!", "Proszę podać liczbę graczy!", "OK");
 		} 
 		else
 		{

@@ -1,1 +1,1 @@
-C:\Projekty\Alkokarty\Alcocards\Alcocards.csproj;x64
+C:\Users\mikolaj\source\repos\Alkokarty\Alcocards\Alcocards.csproj;x64
