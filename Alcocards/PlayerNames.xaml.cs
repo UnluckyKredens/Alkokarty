@@ -1,6 +1,7 @@
 using AndroidX.ConstraintLayout.Helper.Widget;
 using Microsoft.Maui.Controls;
 using System.ComponentModel;
+using static Bumptech.Glide.DiskLruCache.DiskLruCache;
 
 namespace Alcocards;
 
@@ -30,9 +31,20 @@ public partial class PlayerNames : ContentPage
             BackgroundColor = Colors.White,
             HorizontalTextAlignment = TextAlignment.Center,
             MaxLength = 20,
-            Keyboard = Keyboard.Plain
-        };
+            Keyboard = Keyboard.Plain,
+    };
         Layout.Add(editor);
-        player_name.Add(editor.Text);
+        editor.Completed += OnEditorCompleted;
+        
+    }
+
+    void OnEditorCompleted(object sender, EventArgs e)
+    {
+        player_name.Add(((Entry)sender).Text);
+    }
+
+    void NextPage()
+    {
+        
     }
 }
