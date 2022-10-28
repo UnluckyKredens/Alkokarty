@@ -13,6 +13,7 @@
             Padding="30,0"
             VerticalOptions="Center">
         </StackLayout>
-        <ImageButton Source="next.png" WidthRequest="70" HeightRequest="70" Margin="0,40,0,0" CornerRadius="30"></ImageButton>
+        <ImageButton Source="next.png" WidthRequest="70" HeightRequest="70" Margin="0,40,0,0" CornerRadius="30" Clicked="NextPage">
+        </ImageButton>
     </VerticalStackLayout>
 </ContentPage>

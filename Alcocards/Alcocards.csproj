@@ -48,46 +48,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\cards\1.png" />
-	  <None Remove="Resources\Images\cards\ace.png" />
-	  <None Remove="Resources\Images\cards\eight.png" />
-	  <None Remove="Resources\Images\cards\five.png" />
-	  <None Remove="Resources\Images\cards\four.png" />
-	  <None Remove="Resources\Images\cards\jocker.png" />
-	  <None Remove="Resources\Images\cards\king.png" />
-	  <None Remove="Resources\Images\cards\nine.png" />
-	  <None Remove="Resources\Images\cards\queen.png" />
-	  <None Remove="Resources\Images\cards\seven.png" />
-	  <None Remove="Resources\Images\cards\six.png" />
-	  <None Remove="Resources\Images\cards\ten.png" />
-	  <None Remove="Resources\Images\cards\three.png" />
-	  <None Remove="Resources\Images\cards\two.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiImage Include="Resources\Images\cards\ten.png" />
-	  <MauiImage Include="Resources\Images\cards\two.png" />
-	  <MauiImage Include="Resources\Images\cards\three.png" />
-	  <MauiImage Include="Resources\Images\cards\four.png" />
-	  <MauiImage Include="Resources\Images\cards\five.png" />
-	  <MauiImage Include="Resources\Images\cards\six.png" />
-	  <MauiImage Include="Resources\Images\cards\seven.png" />
-	  <MauiImage Include="Resources\Images\cards\eight.png" />
-	  <MauiImage Include="Resources\Images\cards\nine.png" />
-	  <MauiImage Include="Resources\Images\cards\ace.png" />
-	  <MauiImage Include="Resources\Images\cards\jocker.png" />
-	  <MauiImage Include="Resources\Images\cards\king.png" />
-	  <MauiImage Include="Resources\Images\cards\queen.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Resource Include="Resources\Images\cards\1.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Cards.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="PlayerNames.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

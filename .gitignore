@@ -13,13 +13,10 @@
 *.user
 *.userosscache
 *.sln.docstates
-<<<<<<< HEAD
 *.apk
 *.zip
 *.dll
 
-=======
->>>>>>> main
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -108,11 +105,8 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-<<<<<<< HEAD
 *.o
 *.s
-=======
->>>>>>> main
 
 # Chutzpah Test files
 _Chutzpah*
