@@ -5,19 +5,23 @@ namespace Alcocards;
 
 public partial class PlayerNames : ContentPage
 {
-	int players_amount = MainPage.players;
-    List<string>player_name = new List<string>();
+    int players_amount = MainPage.players;
+    public List<string> player_names_list = new List<string>();
     public PlayerNames()
 	{
 		InitializeComponent();
-        for(int i = 0; i < players_amount; i++)
+        
+        for (int i = 0; i < players_amount; i++)
         {
+            
             CreateEditor();
         }
+        
     }
 
     void CreateEditor()
     {
+
         Entry editor = new Entry
         {
             Placeholder = "Nazwa gracza",
@@ -29,7 +33,7 @@ public partial class PlayerNames : ContentPage
             BackgroundColor = Colors.White,
             HorizontalTextAlignment = TextAlignment.Center,
             MaxLength = 20,
-            Keyboard = Keyboard.Plain,
+            Keyboard = Keyboard.Plain,       
     };
         Layout.Add(editor);
         editor.Completed += OnEditorCompleted;
@@ -38,11 +42,12 @@ public partial class PlayerNames : ContentPage
 
     void OnEditorCompleted(object sender, EventArgs e)
     {
-        player_name.Add(((Entry)sender).Text);
+        player_names_list.Add(((Entry)sender).Text);
     }
 
-    void NextPage()
+     void NextPage(object sender, EventArgs e)
     {
-        
+        Cards.players = player_names_list;
+         Navigation.PushAsync(new Cards());
     }
 }
