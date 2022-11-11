@@ -1,0 +1,3 @@
+C:\Users\szcze\Desktop\Alkokarty\Alkokarty\bin\Release\net6.0-android\publish\com.companyname.alkokarty-Signed.aab
+C:\Users\szcze\Desktop\Alkokarty\Alkokarty\bin\Release\net6.0-android\publish\com.companyname.alkokarty.aab
+C:\Users\szcze\Desktop\Alkokarty\Alkokarty\bin\Release\net6.0-android\publish\com.companyname.alkokarty-Signed.apk
